@@ -1,0 +1,68 @@
+.my {
+    top: 50px;
+    width: 200px;
+    height: 200px;
+    overflow: visible;
+    position: absolute;
+    cursor: move;
+}
+
+.my:hover {
+    border: 1px dotted blue;
+}
+
+#nwgrip,
+#negrip,
+#swgrip,
+#segrip {
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 50%;
+}
+
+#negrip {
+    top: -6px;
+    right: -6px;
+}
+
+#segrip {
+    bottom: -6px;
+    right: -6px;
+}
+
+#nwgrip {
+    top: -6px;
+    left: -6px;
+}
+
+#swgrip {
+    bottom: -6px;
+    left: -6px;
+}
+
+.my>.ui-resizable-handle {
+    visibility: hidden;
+}
+
+.my:hover>.ui-resizable-handle {
+    visibility: visible;
+}
+
+.my > img {
+    width: inherit;
+    height: inherit;
+}
+
+.ui-resizable-helper {
+    border: 1px dotted gray;
+}
+
+.hello {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    background-color: aqua;
+    position: relative;
+}

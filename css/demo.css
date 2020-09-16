@@ -1,0 +1,192 @@
+/* this is css for sidebar with icon and side panel*/
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    height: 100%;
+}
+
+.sidebar {
+    height: 91.5%;
+    width: 71.99px;
+    background-color: black;
+    overflow: auto;
+    padding-top: 16px;
+    float: left;
+}
+
+.sidebar a {
+    padding: 6px 6px 25px 6px;
+    text-decoration: none;
+    font-size: 11px;
+    color: #818181;
+    display: block;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.side-panel {
+    width: 352.01px;
+    float: left;
+    background-color: #293039;
+    height: 91.5%;
+    position: relative;
+    display: none;
+    overflow: auto;
+}
+
+.side-panal-close {
+    width: 30px;
+    height: 90px;
+    position: absolute;
+    top: 50%;
+    left: 409px;
+    display: none;
+}
+
+.side-panal-close>a {
+    text-decoration: none;
+    color: #f1f1f1;
+    position: relative;
+    top: 65px;
+}
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #818181;
+    border-radius: 10px;
+}
+
+.poster {
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+    width: 152px;
+    height: 152px;
+    padding: 0px;
+    margin: 3px;
+    background-color: inherit;
+}
+
+.b_poster {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    background-color: inherit;
+    text-decoration: none;
+}
+
+/* this is css for div canvas */
+
+.left {
+    position: relative;
+    /* overflow: hidden; */
+    min-height: 46.99px;
+    background-color: rgb(253, 253, 253);
+}
+
+.canvas-back {
+    background-color: lightgray;
+    height: 84.4%;
+    padding-top: 60px;
+    margin:  auto;
+    text-align: center;
+}
+
+/* this is css for edit canvas */
+
+.mycanvas{
+    position: absolute;
+    margin: 0 auto;
+    width: 55.55555555555556vh;
+    height: 55.55555555555556vh;
+    background-size: cover;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+/* this is css for image to dragge and resize */
+
+.my {
+    top: 50px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: transparent;
+    cursor: move;
+}
+
+.my:hover {
+    border: 1px dotted blue;
+}
+
+#nwgrip, #negrip, #swgrip, #segrip {
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 50%;
+}
+
+#negrip {
+    top: -6px;
+    right: -6px;
+}
+
+#segrip {
+    bottom: -6px;
+    right: -6px;
+}
+
+#nwgrip {
+    top: -6px;
+    left: -6px;
+}
+
+#swgrip {
+    bottom: -6px;
+    left: -6px;
+}
+
+.my>.ui-resizable-handle {
+    visibility: hidden;
+}
+
+.my:hover>.ui-resizable-handle {
+    visibility: visible;
+}
+
+.my>img {
+    width: inherit;
+    height: inherit;
+}
+
+.ui-resizable-helper {
+    border: 1px dotted gray;
+}
+
+/* .btn-download css */
+
+.btn-download {
+    position: relative;
+}
+
